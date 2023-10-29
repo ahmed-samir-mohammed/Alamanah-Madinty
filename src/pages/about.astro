@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro"
+---
+
+<Layout title="Madianty | About">
+    <h2>Welcome to Madianty | About</h2>
+    <p>This is a simple example of using Astro with Tailwind CSS.</p>
+    <div class="mt-4">
+        <a class="underline font-bold" href="/">Home</a>
+    </div>
+</Layout>
+
+<style>
+    h2 {
+        @apply font-bold text-6xl mb-2;
+    }
+    p {
+        @apply text-[#225091] font-bold;
+    }
+    div {
+        @apply mt-4;
+    }
+    a {
+        @apply underline hover:text-blue-700;
+    }
+</style>
